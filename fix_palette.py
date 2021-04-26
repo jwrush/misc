@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+
+#takes a gimp pallette file from stdin and outputs the same
+#colors as comma delimited rgb triples, normalized from 0 to 1
+
 import sys
 import re
 
