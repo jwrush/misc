@@ -1,0 +1,9 @@
+[Plugin]
+Name=Sort Image
+Loader=python3
+Module=sort-image
+IAge=3
+Icon=eog
+Authors=Rush Wray
+Copyright=Copyright © 2021 Rush Wray
+Website=https://bitbucket.org/jendrikseipp/eog-export
