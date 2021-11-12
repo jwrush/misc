@@ -9,7 +9,15 @@ declare -A TARGETS
 TARGETS["downloads"]=$(echo ~/Downloads/)
 TARGETS["home"]=$(echo ~)
 TARGETS["zap"]=/home/rush/Downloads/zap/
-
+TARGETS["art"]=/home/rush/Pictures/art/
+TARGETS["cartoon_porn_inspo"]=/home/rush/Pictures/cartoon_porn_inspo/
+TARGETS["wallpapers"]=/home/rush/Pictures/Wallpapers/
+TARGETS["male_supremacy"]=/home/rush/Pictures/male_supremacy/
+TARGETS["good_df"]=/home/rush/Pictures/art/good_df/
+TARGETS["art_in"]="/home/rush/Pictures/art/in/"
+TARGETS["drawing_advice"]=/home/rush/Pictures/art/drawing_advice/
+TARGETS["experiments"]=/home/rush/Pictures/art/experiments/
+TARGETS["textures"]=/home/rush/Pictures/art/experiments/
 
 #add an entry for every person folder
 while read name path

@@ -25,4 +25,4 @@ case $MEASUREMENT in
                 exit 1
 esac                
 
-echo "\n\n" | ./googler -C $QUERY $UNIT | grep -oP "$NUMBER *$UNIT" | awk '{ sum += $1 } END { if (NR > 0) print sum / NR }'
+echo "\n\n" | googler -C $QUERY $UNIT | grep -oP "$NUMBER *$UNIT" | awk '{ sum += $1 } END { if (NR > 0) print sum / NR }'

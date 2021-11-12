@@ -1,0 +1,14 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ImageSorterPlugin	sort-image.py	/^        PeasGtk.Configurable):$/;"	c
+_ACTION_NAME	sort-image.py	/^_ACTION_NAME = 'sort-image'$/;"	v
+_MENU_ID	sort-image.py	/^_MENU_ID = "Sort Image"$/;"	v
+__init__	sort-image.py	/^    def __init__(self):$/;"	m	class:ImageSorterPlugin
+do_activate	sort-image.py	/^    def do_activate(self):$/;"	m	class:ImageSorterPlugin
+do_deactivate	sort-image.py	/^    def do_deactivate(self):$/;"	m	class:ImageSorterPlugin
+sort_image_cb	sort-image.py	/^    def sort_image_cb(self, action, parameter, window):$/;"	m	class:ImageSorterPlugin
+window	sort-image.py	/^    window = GObject.property(type=Eog.Window)$/;"	v	class:ImageSorterPlugin
