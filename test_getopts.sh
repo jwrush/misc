@@ -8,6 +8,16 @@
 #not even running it now, just leaving a note in case I ever come back to it, so I don't
 #even know if it works.
 
+#JMW: (FROM A LONG TIME LATER)
+#
+#Okay, found this again and I think I figured out how it should work.  getopt()
+#is the C library way of doing it and I think that's probably the better choice
+#as it supports more options (like long --parameters)
+#
+#the way these work is by taking a code string (optstring) and then just the parameters that need to be parsed
+#
+#it then outputs a format on standard out that can be read
+
 verbose='false'
 aflag=''
 bflag=''
