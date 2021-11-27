@@ -21,7 +21,7 @@ TARGETS["textures"]=/home/rush/Pictures/art/experiments/
 TARGETS["good"]=/home/rush/Pictures/art/good
 TARGETS["png"]=/home/rush/Pictures/art/png
 TARGETS["scraps"]=/home/rush/Pictures/art/rushworld
-
+TARGETS["dev"]=/home/rush/Dev/
 
 #add an entry for every person folder
 while read name path
