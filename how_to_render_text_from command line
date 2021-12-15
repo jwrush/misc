@@ -1,0 +1,4 @@
+#two ways to draw rich text from the command line.
+#technique one, use the pango input adaptor, and encode your text in pango markeup language
+convert -background lightblue pango:"<markup><span font=\"ZeroHour\">$(fortune)</span></markup>" png:- | display png:-
+#technique two, use svg with text tags
