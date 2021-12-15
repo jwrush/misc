@@ -2,3 +2,5 @@
 *~
 #don't need swap files
 *swp
+#these are almost certainly not intended to save
+*svg
