@@ -1,9 +1,26 @@
 <svg height="300" width="200">
-    <text x="0" y="" fill="red">I love SVG!</text>
-    <text x="0" y="" fill="red">I love SVG!</text>
-    <text x="0" y="" fill="red">I love SVG!</text>
-    <text x="0" y="" fill="red">I love SVG!</text>
-    <text x="0" y="" fill="red">I love SVG!</text>
+    <style>/* <![CDATA[ */
+    text {
+        font-family: ComicBook;
+        font-size: 15pt;
+        fill: black;
+    }
+    text.header {
+        fill:rgb(100,200,0);
+        font-size:20pt;
+    }
+    /* ]]> */</style>
+    <rect height="300" width="300" style="fill:rgb(0,0,255);"/>
+    <text class="header" x="0" y="20" >I love SVG!</text>
+    <text x="0" y="40" >I love SVG!</text>
+    <text x="0" y="60" >I love SVG!</text>
+    <text x="0" y="80" >I love SVG!</text>
 </svg>
+
+
+
+
+
+
 
 
